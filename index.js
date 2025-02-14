@@ -41,7 +41,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false })
 app.get('/', (req, res) => {
     res.json({
         "Name":"project lab 4",
-        "Author":"Charoenporn Bouyam",
+        "Author":"krittika inmonthean",
         "APIs":[
             {"api_name":"/getDoctors/","method":"get"},
             {"api_name":"/getDoctor/:id","method":"get"},
